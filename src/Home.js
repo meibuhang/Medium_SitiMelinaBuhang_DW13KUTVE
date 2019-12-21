@@ -79,7 +79,14 @@ const LatestUpdateArticleList = [
   }
 ];
 
-export default function Home() {
+export default class Home extends Component {
+  render() {
+    return <Home />;
+  }
+}
+
+function Home() {
+  useState();
   const classes = useStyles();
   const picNetWork = networkAvatar();
   return (
